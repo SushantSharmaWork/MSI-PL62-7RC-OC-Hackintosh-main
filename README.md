@@ -46,3 +46,46 @@ Speaker: VEN_10EC&DEV_0892
 
 - Trackpad PC/2 Synaptic click (physical button and tapping) doesn't work (need more time to fix it).
 - No battery management (again, not enough time to do it).
+
+# AfterMath:
+
+# Setting up display text size:
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/xzhih/one-key-hidpi/master/hidpi.sh)"
+
+# Setting up keyboard:
+
+n your Mac open Settings Preferences.
+Now go to Keyboard > Modifier Keys and select your keyboard from the keyboard drop down list.
+Now for the Option key select ‘⌘ Command’ and for Command (⌘) key choose ‘⌥ Option’.
+Click on the OK button and exit.
+
+#Turn on three finger drag for your Mac trackpad
+The ability to drag items using a three-finger gesture is an option for trackpads that support Force Touch.
+
+	1	Choose Apple menu  > System Preferences, then click Accessibility. 
+	2	Select Pointer Control in the sidebar. (In earlier versions of macOS, select Mouse & Trackpad.)
+	3	Click the Trackpad Options button.
+	4	Select ”Enable dragging,” then choose ”three finger drag” from the menu.
+	5	Click OK.
+
+Energy Saver Settings
+	1	Open the Settings App
+	2	Click Energy Saver
+	3	Uncheck
+	4	Uncheck Wake for Ethernet Network access
+	5	Uncheck Enable Power Nap
+
+sudo pmset autopoweroff 0
+sudo pmset powernap 0
+sudo pmset standby 0
+sudo pmset proximitywake 0
+sudo pmset tcpkeepalive 0
+
+
+Read/write windows drive(NTFS):
+
+Download:
+
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+
+macFuse
