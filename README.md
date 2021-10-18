@@ -14,6 +14,8 @@ Hackintosh for my laptop- MSI pl62-7rc :
 
 MSI pl62-7rc : (Also called MSI Prestige)
 
+| Part      | Model                                                                                              |
+| --------- | -------------------------------------------------------------------------------------------------- |
 |CPU         | Intel Core i7 7700HQ @ 2.80GHz	Kaby Lake 14nm Technology                                        |
 |GPU         |  GeForce MX150 - 2GB DDR4                                                                         |
 |RAM         | 12.0GB Dual-Channel Unknown @ 1200MHz (2 ram used: 4gb, 8gb crucial)                              |
